@@ -93,6 +93,7 @@ public class Main {
 //		System.out.println("<config file> --remove-sensor <device> <sensor>");
 //		System.out.println("--config");
 		System.out.println("--help");
+		System.out.println("Tweaked by Robert");
 	}
 	
 	private static String getXML() {
