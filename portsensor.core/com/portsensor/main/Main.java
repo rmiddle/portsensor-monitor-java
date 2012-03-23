@@ -340,7 +340,7 @@ public class Main {
 		String httpDate = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss Z").format(new Date()).toString();
 		String url_query = (null==url.getQuery()) ? "" : url.getQuery();
 		
-		System.out.println("Posting to " + post_url);
+		//System.out.println("Posting to " + post_url);
 
 		try {
 			// Password MD5
@@ -369,7 +369,7 @@ public class Main {
 	        String line;
 	        while ((line = rd.readLine()) != null) {
 	            // Process line...
-	        	System.out.println(line);
+	        	//System.out.println(line);
 	        }
 	        wr.close();
 	        rd.close();
