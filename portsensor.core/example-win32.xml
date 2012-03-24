@@ -42,6 +42,9 @@
 	<sensor id="local_ping">
 		<name>Ping</name>
 		<command>ping -n 1 localhost | find "Average ="</command>
+                <type>decimal</type>
+                <warning oper="gt" value="100">High Latency</warning>
+                <critical oper="gt" value="200">Critical Latency</critical>
 	</sensor>
 	-->
 </configuration>
